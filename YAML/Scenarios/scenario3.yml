@@ -1,1 +1,12 @@
+---
+development:
+  database_connection:
+    hostname: "dev-db.example.com"
+    port: 3306
+  api_key: "abc123"
 
+production:
+  database_connection:
+    hostname: "prod-db.example.com"
+    port: 5432
+  api_key: "xyz789"
