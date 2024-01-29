@@ -1,1 +1,15 @@
-
+---
+- person:
+    name: John Doe
+    age: 30
+    address:
+      street: 1122 Main Street
+      cit: Bangalore
+      zip_code: 560001
+- person:
+    name: Jane Smith
+    age: 25
+    address:
+      street: 2211 Water Street
+      city: Bangalore
+      zip_code: 560001
