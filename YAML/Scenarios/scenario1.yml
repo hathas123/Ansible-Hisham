@@ -2,7 +2,7 @@
 database:
   host: localhost
   port: 3306
-  user: myuser
+  username: myuser
   password: mypassword
 
 application:
