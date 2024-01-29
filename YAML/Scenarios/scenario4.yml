@@ -1,1 +1,14 @@
+---
+defaults: &common_settings
+  timeout: 30 seconds
+  retries: 3 Times
 
+database_VM:
+<< : *common_settings
+host: db.example.com
+port: 5423
+
+api_VM:
+<<: *common_settings
+host: api.example.com
+port: 80
