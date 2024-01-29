@@ -12,3 +12,20 @@ api_VM:
 <<: *common_settings
 host: api.example.com
 port: 80
+
+
+#OR
+
+#defaults: &common_settings
+#  timeout: 30 seconds
+#  retries: 3 Times
+
+#ENV:
+#  - DB_VM:
+#      <<: *&common_settings
+#      host: dev-db.example.com
+#      port: 5432
+#  - API_VM:
+#      <<: *&common_settings
+#      host: api.example.com
+#      port: 80
