@@ -1,1 +1,9 @@
-
+---
+categories:
+  - name: Fruits
+    items:
+      - name: Apple
+        price: 1.5
+      - name: Banana
+        price: 0.75
+  
